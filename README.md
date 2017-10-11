@@ -8,3 +8,6 @@ $ yarn
 $ webpack
 $ caddy
 ```
+
+## License
+MIT © munisystem
