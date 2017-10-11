@@ -14,7 +14,9 @@
             <h4> Your choise is {{ num }} </h4>
           </div>
           <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+            <button class="modal-action modal-close waves-effect waves-green btn-flat" v-on:click="double(num)">Double</a>
+            <button class="modal-action modal-close waves-effect waves-green btn-flat" v-on:click="square(num)">Square</a>
+            <button class="modal-action modal-close waves-effect waves-green btn-flat" v-on:click="squareRoot(num)">SquareRoot</a>
           </div>
         </div>
       </div>

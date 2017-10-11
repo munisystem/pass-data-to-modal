@@ -1,6 +1,6 @@
 import Vue from 'vue/dist/vue.esm'
 
-import 'materialize-css/dist/js/materialize.min.js'
+import Materialize from 'materialize-css/dist/js/materialize.min.js'
 import 'materialize-css/dist/css/materialize.min.css'
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -23,6 +23,17 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         mounted: function() {
             $('.modal').modal();
+        },
+        methods: {
+            square: function(i) {
+                Materialize.toast(i * i, 4000);
+            },
+            double: function(i) {
+                Materialize.toast(i * 2, 4000);
+            },
+            squareRoot: function(i) {
+                Materialize.toast(Math.sqrt(i), 4000);
+            }
         },
     });
 });
