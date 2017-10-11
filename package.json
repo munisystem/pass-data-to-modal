@@ -1,5 +1,8 @@
 {
   "name": "pass-data-to-modal",
   "version": "0.0.1",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.6.0"
+  }
 }
