@@ -4,5 +4,8 @@
   "license": "MIT",
   "devDependencies": {
     "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "vue": "^2.4.4"
   }
 }
