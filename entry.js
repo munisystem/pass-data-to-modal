@@ -1,5 +1,8 @@
 import Vue from 'vue/dist/vue.esm'
 
+import 'materialize-css/dist/js/materialize.min.js'
+import 'materialize-css/dist/css/materialize.min.css'
+
 document.addEventListener('DOMContentLoaded', () => {
     const app = new Vue({
         el: '#app',
@@ -17,6 +20,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     num: 30
                 },
             ],
+        },
+        mounted: function() {
+            $('.modal').modal();
         },
     });
 });
